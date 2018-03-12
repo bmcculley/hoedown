@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <ctype.h>
 
+int snprintf(char *str, size_t size, const char *format, int is_open, uint8_t quote);
+
 #ifdef _MSC_VER
 #define snprintf _snprintf
 #endif
